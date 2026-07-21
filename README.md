@@ -17,3 +17,24 @@ This project is a final academic assignment and focuses on two main evaluations:
 * **Communication:** LoRa Module (433MHz)
 * **Sensors:** [Insert Sensors, e.g., MQ-135, MQ-7, etc.]
 * **Software/Platform:** [Insert Platform, e.g., Arduino IDE, ThingsBoard, etc.]
+## 1.0 Sensor Calibrating
+
+During the calibration phase, environmental conditions (Temperature & Humidity) and the resistance (Rs) of various gas sensors (MEMS, MQ7, MQ136, MQ135) were recorded. The table below represents a cross-section sample of the dataset, showcasing different testing intervals for each sensor group.
+
+### Data Sample
+
+| No | Time | Suhu (°C) | Kelembapan (%) | Vo MEMS | Rs MEMS | Vo MQ7 | Rs MQ7 | Vo MQ136 | Rs MQ136 | Vo MQ135 | Rs MQ135 |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| 1 | 21:13:16 | 22.00 | 89.74 | 1.39 | 13.63 | - | - | - | - | - | - |
+| 2 | 21:13:45 | 22.00 | 89.74 | 1.37 | 13.94 | - | - | - | - | - | - |
+| 58 | 22:43:10 | 21.71 | 90.72 | - | - | 0.73 | 9.81 | 0.10 | 88.89 | - | - |
+| 59 | 22:43:15 | 21.71 | 90.72 | - | - | 0.73 | 9.84 | 0.10 | 88.89 | - | - |
+| 115 | 23:02:51 | 21.58 | 91.05 | - | - | - | - | - | - | 0.10 | 88.89 |
+| 116 | 23:02:56 | 21.58 | 91.05 | - | - | - | - | - | - | 0.10 | 88.89 |
+
+> *Note: The dataset was recorded in sequential phases. Empty values (`-`) indicate that the respective sensor was not active or being recorded during that specific timeframe.*
+
+### Calibration Resistance (Rs) Chart
+The following chart visualizes the fluctuation of the sensors' resistance (Rs) over time during the calibration process.
+
+![Sensor Calibration Chart](docs/sensor_calibration_chart.png)
