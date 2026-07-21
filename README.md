@@ -37,4 +37,4 @@ During the calibration phase, environmental conditions (Temperature & Humidity) 
 ### Calibration Resistance (Rs) Chart
 The following chart visualizes the fluctuation of the sensors' resistance (Rs) over time during the calibration process.
 
-![Sensor Calibration Chart](docs/sensor_calibration_chart.png)
+![Sensor Calibration Chart](docs/Hasil Pembacaan Kalibrasi Sensor Rs dan Vo Terhadap Suhu Dan Kelembapan.png)
