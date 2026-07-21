@@ -7,6 +7,9 @@ Source code and test data for an Air Quality Monitoring System in Indonesian vol
 
 ## 📌 Project Overview
 This repository contains the source code, hardware schematics, and test data for an **Air Quality Monitoring System** specifically designed for volcanic regions in Indonesia. The system aims to mitigate the risk of exposure to hazardous gases by providing real-time data monitoring using long-range radio communication.
+### 📌 Note on Pre-Calibrated Sensors
+
+It is also important to note that several sensors integrated into this system, specifically the AHT10 (temperature and humidity), Anemometer, and Wind Direction sensors, do not require recalibration. The AHT10 module comes strictly factory-calibrated with high precision, ensuring accurate and reliable data right out of the box. Similarly, the anemometer and wind direction sensors operate as mechanical-digital devices that rely on physical mechanics and factory-standardized configurations; therefore, they function as reliable plug-and-play components as long as they are properly installed and free from physical obstructions.
 
 This project is a final academic assignment and focuses on two main evaluations:
 1. **Sensor Accuracy and Reading Tests:** Evaluating the precision of hazardous gas sensors in simulated/real environments.
