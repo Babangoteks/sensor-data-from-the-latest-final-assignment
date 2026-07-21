@@ -217,3 +217,74 @@ Based on the calibration chart above, an in-depth analysis reveals several key f
     The chart illustrates significant fluctuations and sharp spikes in the resistance parameter (Rs) of the MQ-135 sensor (golden-brown line). Notable peaks occurred at 09:40 PM, 10:43 PM, along with multiple peak cycles exceeding a value of 200 between 10:45 PM and 11:02 PM. These spikes directly reflect the real-time fluctuations during the active calibration process.
 *   **Stability of MEMS, MQ-7, MQ-136, & Dust Sensors:** 
     Conversely, the voltage (Vo) and resistance (Rs) parameters for the MEMS, MQ-7, MQ-136, and dust sensors exhibited a highly stable, flat trajectory. They were virtually unaffected by specific gas fluctuations or cold temperatures. This demonstrates that the MEMS and optical-based (dust) sensors possess excellent immunity to environmental temperature variations and maintain distortion-free readings throughout the testing phase.
+## 1.1 Dust Sensor Calibration
+
+This section details the calibration results for the optical Dust Sensor. The data records the output voltage (V) and the corresponding calculated dust density (mg/m³) over a series of sequential readings.
+
+### Dust Sensor Dataset
+
+| No. | Waktu | Volt Terbaca (V) | Densitas Debu (mg/m³) |
+|:---:|:---|:---:|:---:|
+| 1 | 10:30:32 PM | 0.2732 | 0.08 |
+| 2 | 10:32:02 PM | 0.2441 | 0.0219 |
+| 3 | 10:32:04 PM | 0.2893 | 0.1123 |
+| 4 | 10:32:05 PM | 0.2978 | 0.1292 |
+| 5 | 10:32:07 PM | 0.2872 | 0.1081 |
+| 6 | 10:32:08 PM | 0.2953 | 0.1242 |
+| 7 | 10:32:10 PM | 0.2674 | 0.0685 |
+| 8 | 10:32:12 PM | 0.3015 | 0.1366 |
+| 9 | 10:32:13 PM | 0.2914 | 0.1163 |
+| 10 | 10:32:15 PM | 0.2703 | 0.0743 |
+| 11 | 10:32:16 PM | 0.2932 | 0.12 |
+| 12 | 10:32:18 PM | 0.2798 | 0.0931 |
+| 13 | 10:32:19 PM | 0.2737 | 0.081 |
+| 14 | 10:32:21 PM | 0.2897 | 0.113 |
+| 15 | 10:32:22 PM | 0.2759 | 0.0855 |
+| 16 | 10:32:24 PM | 0.2746 | 0.0828 |
+| 17 | 10:32:25 PM | 0.2721 | 0.0779 |
+| 18 | 10:32:27 PM | 0.2740 | 0.0817 |
+| 19 | 10:32:28 PM | 0.2744 | 0.0824 |
+| 20 | 10:32:30 PM | 0.2760 | 0.0856 |
+| 21 | 10:32:31 PM | 0.2928 | 0.1193 |
+| 22 | 10:32:33 PM | 0.2828 | 0.0992 |
+| 23 | 10:32:34 PM | 0.2805 | 0.0946 |
+| 24 | 10:32:36 PM | 0.2781 | 0.0899 |
+| 25 | 10:32:38 PM | 0.2899 | 0.1134 |
+| 26 | 10:32:39 PM | 0.2856 | 0.1048 |
+| 27 | 10:32:41 PM | 0.2800 | 0.0936 |
+| 28 | 10:32:42 PM | 0.2728 | 0.0793 |
+| 29 | 10:32:44 PM | 0.2806 | 0.0949 |
+| 30 | 10:32:45 PM | 0.2810 | 0.0955 |
+| 31 | 10:32:47 PM | 0.2840 | 0.1016 |
+| 32 | 10:32:48 PM | 0.2690 | 0.0715 |
+| 33 | 10:32:50 PM | 0.2861 | 0.1058 |
+| 34 | 10:32:51 PM | 0.3083 | 0.1503 |
+| 35 | 10:32:53 PM | 0.2713 | 0.0761 |
+| 36 | 10:32:54 PM | 0.2908 | 0.1152 |
+| 37 | 10:32:56 PM | 0.2975 | 0.1286 |
+| 38 | 10:32:57 PM | 0.2903 | 0.1142 |
+| 39 | 10:32:59 PM | 0.2770 | 0.0876 |
+| 40 | 10:33:01 PM | 0.2762 | 0.0860 |
+| 41 | 10:33:02 PM | 0.2811 | 0.0959 |
+| 42 | 10:33:04 PM | 0.2839 | 0.1013 |
+| 43 | 10:33:05 PM | 0.2811 | 0.0958 |
+| 44 | 10:33:07 PM | 0.2837 | 0.1009 |
+| 45 | 10:33:08 PM | 0.2747 | 0.0830 |
+| 46 | 10:33:10 PM | 0.2852 | 0.1041 |
+| 47 | 10:33:11 PM | 0.2648 | 0.0631 |
+| 48 | 10:33:13 PM | 0.2648 | 0.0632 |
+| 49 | 10:33:14 PM | 0.3002 | 0.1340 |
+| 50 | 10:33:16 PM | 0.2885 | 0.1107 |
+| 51 | 10:33:17 PM | 0.2883 | 0.1103 |
+| 52 | 10:33:19 PM | 0.2856 | 0.1047 |
+| 53 | 10:33:20 PM | 0.2636 | 0.0609 |
+| 54 | 10:33:22 PM | 0.3023 | 0.1383 |
+| 55 | 10:33:24 PM | 0.2845 | 0.1027 |
+| 56 | 10:33:25 PM | 0.2884 | 0.1104 |
+| 57 | 10:33:27 PM | 0.2986 | 0.1308 |
+| **-** | **Rata Rata** | **0.282365** | **0.098349** |
+
+### Dust Density Fluctuation Chart
+The chart below visualizes the fluctuation in dust density (mg/m³) across the 57 sequential data points.
+
+![Dust Sensor Calibration Chart](Code_Generated_Image.png)
