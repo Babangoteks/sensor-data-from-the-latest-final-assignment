@@ -203,3 +203,14 @@ During the calibration phase, environmental conditions (Temperature & Humidity) 
 The following chart visualizes the fluctuation of the sensors' resistance (Rs) over time during the calibration process.
 
 ![Sensor Calibration Chart](Hasil%20Pembacaan%20Kalibrasi%20Sensor%20Rs%20dan%20Vo%20Terhadap%20Suhu%20Dan%20Kelembapan.png)
+
+### 📈 Chart Analysis & Findings
+
+Based on the calibration chart above, an in-depth analysis reveals several key findings regarding the system's performance:
+
+*   **Environmental Variable Stability:** 
+    The temperature (blue line) and humidity (orange line) parameters remained highly constant and flat throughout the testing period. This indicates that the thermal control system successfully maintained the testing environment within the optimal range (19–28°C) without extreme shifts.
+*   **Dynamic Response of the MQ-135 Sensor:** 
+    The chart illustrates significant fluctuations and sharp spikes in the resistance parameter (Rs) of the MQ-135 sensor (golden-brown line). Notable peaks occurred at 09:40 PM, 10:43 PM, along with multiple peak cycles exceeding a value of 200 between 10:45 PM and 11:02 PM. These spikes directly reflect the real-time fluctuations during the active calibration process.
+*   **Stability of MEMS, MQ-7, MQ-136, & Dust Sensors:** 
+    Conversely, the voltage (Vo) and resistance (Rs) parameters for the MEMS, MQ-7, MQ-136, and dust sensors exhibited a highly stable, flat trajectory. They were virtually unaffected by specific gas fluctuations or cold temperatures. This demonstrates that the MEMS and optical-based (dust) sensors possess excellent immunity to environmental temperature variations and maintain distortion-free readings throughout the testing phase.
